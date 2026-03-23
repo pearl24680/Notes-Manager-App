@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 import os
 
-st.set_page_config(page_title="AI Notes Manager", layout="wide")
+st.set_page_config(page_title=" Notes Manager", layout="wide")
 
 FILE = "notes_data.xlsx"
 
