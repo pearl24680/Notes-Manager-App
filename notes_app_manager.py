@@ -12,7 +12,7 @@ if os.path.exists(FILE):
 else:
     df = pd.DataFrame(columns=["ID", "Title", "Category", "Content", "Timestamp"])
 
-st.title("🧠 AI Notes Manager")
+st.title(" Notes Manager")
 
 menu = st.sidebar.radio("Menu", ["Add", "View", "Search", "Delete"])
 
